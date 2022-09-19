@@ -33,8 +33,6 @@ body {
 .header__icon {
   display: flex;
   align-items: center;
-}
-.header__name {
   font-weight: 700;
 }
 .header__links {
@@ -64,52 +62,19 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
-.btn__icon {
-  width: 1rem;
-  height: 1rem;
-  padding: 1rem;
-}
-.btn--no-active {
-  border: 1px solid #1ba0ab;
-}
-
-.btn--active {
-  background-color: #1ba0ab;
-  color: white;
-}
 .btns-container {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-/* ----------------------------------------------------------------- */
-/*                      END BTN STYLE                                */
-/* ----------------------------------------------------------------- */
-
-/* ----------------------------------------------------------------- */
-/*                      FEEDS STYLE                                  */
-/* ----------------------------------------------------------------- */
-.feeds {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 4rem 8rem;
-  background: #ffffff;
+.btn__icon {
+  width: 1rem;
+  height: 1rem;
+  padding: 1rem;
 }
-.feeds__right {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.feeds__contents--start {
-  margin-top: 6rem;
-}
-.feeds__linear {
-  border-top: 8px solid #e74040;
-  padding: 1rem 0;
-}
-.feeds--write {
-  background: #ffffff;
+.btn--active {
+  background-color: #1ba0ab;
+  color: white;
 }
 .btn--outlined {
   padding: 0 !important;
@@ -119,24 +84,61 @@ body {
   margin-top: 1.2rem;
   font-size: 18px;
 }
-.action__button {
+.btn--no-active {
+  border: 1px solid #1ba0ab;
+}
+.btns-container--action {
   margin-top: 1.2rem;
+}
+.btn--footer {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+/* ----------------------------------------------------------------- */
+/*                      END BTN STYLE                                */
+/* ----------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------- */
+/*                      FEEDS STYLE                                  */
+/* ----------------------------------------------------------------- */
+.expert-feeds {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4rem 8rem;
+  background: #ffffff;
+}
+.expert-feeds__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.feeds__contents--start {
+  margin-top: 6rem;
+}
+.subtitle-feeds--linear {
+  border-top: 8px solid #e74040;
+  padding: 1rem 0;
 }
 .primary-color {
   color: #1ba0ab;
   font-weight: bold;
 }
-.feeds__contents {
+.contents-feeds {
   align-content: flex-start;
   padding: 4rem 8rem;
 }
-.feeds__contents--start {
+.contents-feeds--start {
   margin: auto 0;
 }
-.feeds__title {
+.title-feeds {
   font-size: 16px;
 }
-.feeds__subtitle {
+.subtitle-feeds {
   font-size: 3rem;
   margin: 0;
   color: #252b42;
@@ -215,13 +217,6 @@ body {
   font-weight: bolder;
   cursor: pointer;
   padding: 0.5rem;
-}
-.btn--footer {
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
 }
 .footer_title {
   font-size: 2rem;
