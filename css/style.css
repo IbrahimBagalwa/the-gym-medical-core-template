@@ -43,7 +43,7 @@ body {
   gap: 20px;
   align-items: center;
 }
-.header_link > a {
+.header__link > a {
   text-decoration: none;
   color: #737373;
 }
@@ -96,7 +96,7 @@ body {
   padding: 4rem 8rem;
   background: #ffffff;
 }
-.feeds_right {
+.feeds__right {
   display: flex;
   flex-direction: column;
   justify-content: center;
