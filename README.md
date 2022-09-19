@@ -1,4 +1,4 @@
-# the-gym medical-core-template-clone
+# the-gym medical-core-template
 
 ## Welcome! 👋
 
