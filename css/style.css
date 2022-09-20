@@ -223,11 +223,11 @@ body {
   font-stretch: expanded;
   padding: 0.5rem;
 }
-.text-paragraph {
+.paragraph-text {
   color: #737373;
   width: 25rem;
 }
-.text-paragraph--center {
+.paragraph-text--center {
   text-align: center;
 }
 .footer__form {
